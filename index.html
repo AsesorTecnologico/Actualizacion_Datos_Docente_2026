@@ -467,10 +467,20 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="form-row">
                         <div class="form-group">
-                            <label for="mencion_titulo">MENCIÓN DEL TÍTULO PROFESIONAL</label>
-                            <input type="text" id="mencion_titulo" name="mencion_titulo" placeholder="Ej: Educación Primaria">
+                            <label for="adjunto_compromiso1">ADJUNTAR TÍTULO (URL de Google Drive)</label> <a href="https://youtu.be/z60B176kYhk" target="_blank" rel="noopener noreferrer">
+  Vídeo Referencial
+</a>
+                            <textarea id="adjunto_compromiso1" name="adjunto_compromiso1" rows="3" placeholder="Ingrese la URL de Google Drive del documento..."></textarea>
+                            <small style="color: #666; display: block; margin-top: 5px;">
+                                Ejemplo: https://drive.google.com/file/d/ID_DEL_ARCHIVO/view?usp=sharing
+                            </small>
+                            <div class="url-preview" id="urlPreview">
+                                <!-- Aquí se mostrará la URL como enlace -->
+                            </div>
                         </div>
+                    </div>
                     </div>
                 </div>
 
@@ -495,9 +505,8 @@
                     <!-- ADJUNTAR COMPROMISO como textarea -->
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="adjunto_compromiso">ADJUNTAR COMPROMISO (URL de Google Drive)</label> <a href="https://youtu.be/z60B176kYhk" target="_blank" rel="noopener noreferrer">
-  Vídeo Referencial
-</a>
+                            <label for="adjunto_compromiso">ADJUNTAR COMPROMISO (URL de Google Drive)</label> 
+                            <a href="https://youtu.be/z60B176kYhk" target="_blank" rel="noopener noreferrer">Vídeo Referencial</a>
                             <textarea id="adjunto_compromiso" name="adjunto_compromiso" rows="3" placeholder="Ingrese la URL de Google Drive del documento firmado..."></textarea>
                             <small style="color: #666; display: block; margin-top: 5px;">
                                 Ejemplo: https://drive.google.com/file/d/ID_DEL_ARCHIVO/view?usp=sharing
@@ -509,7 +518,7 @@
                     </div>
                     
                     <div class="form-row">
-                       <h2><i class="fas fa-file-signature"></i> Detallar la etapa del proceso en la que se encuentra su trámite de titulación.</h2>
+                        <h2><i class="fas fa-file-signature"></i> Detallar la etapa del proceso en la que se encuentra su trámite de titulación.</h2>
                         <div class="form-group">
                             <label for="seguimiento1">DESCRIPCIÓN SEGUIMIENTO 1</label>
                             <textarea id="seguimiento1" name="seguimiento1" rows="3" placeholder="Primer seguimiento..."></textarea>
